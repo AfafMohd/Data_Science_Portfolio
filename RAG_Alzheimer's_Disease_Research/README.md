@@ -33,7 +33,7 @@ The system follows a standard RAG pipeline:
 
    bash
 
-   git clone https://github.com/AfafMohd/Data_Science_Portfolio/RAG_Alzheimer's_Disease_Research.git
+   git clone https://github.com/AfafMohd/Data_Science_Portfolio/tree/main/RAG_Alzheimer's_Disease_Research.git
 
    cd your-repo-name
 
