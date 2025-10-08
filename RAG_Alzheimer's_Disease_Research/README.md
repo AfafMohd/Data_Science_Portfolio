@@ -1,4 +1,4 @@
-### Medical RAG System for Alzheimer's Research
+# Medical RAG System for Alzheimer's Research
 A Retrieval-Augmented Generation (RAG) system designed to help medical researchers get instant, accurate answers from a curated corpus of recent Alzheimer's disease research articles.
 
 ## Overview
