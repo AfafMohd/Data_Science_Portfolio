@@ -31,17 +31,19 @@ The system follows a standard RAG pipeline:
 ## Installation
 1. Clone the repository:
 
-bash
+   bash
 
-git clone https://github.com/AfafMohd/Data_Science_Portfolio/RAG_Alzheimer's_Disease_Research.git
-cd your-repo-name
+   git clone https://github.com/AfafMohd/Data_Science_Portfolio/RAG_Alzheimer's_Disease_Research.git
+
+   cd your-repo-name
 
 2. Install dependencies:
 
-bash
-pip install -r requirements.txt
+   bash
+   
+   pip install -r requirements.txt
 
-3. Set up Ollama & Pull the Model:
+4. Set up Ollama & Pull the Model:
 
 - Install Ollama from https://ollama.ai
 
@@ -54,17 +56,17 @@ pip install -r requirements.txt
 ## Usage
 1. Build the Knowledge Base:
 
-bash
+   bash
 
-python build_knowledge_base.py
+   python build_knowledge_base.py
 
 This script scrapes the target articles, processes the text, and populates the vector database.
 
 2. Run the Query Application:
 
-bash
+   bash
 
-python query_engine.py
+   python query_engine.py
 
 Launch the interactive session to ask questions about Alzheimer's research.
 
