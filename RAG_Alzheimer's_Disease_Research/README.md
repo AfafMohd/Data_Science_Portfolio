@@ -1,10 +1,10 @@
-Medical RAG System for Alzheimer's Research
+### Medical RAG System for Alzheimer's Research
 A Retrieval-Augmented Generation (RAG) system designed to help medical researchers get instant, accurate answers from a curated corpus of recent Alzheimer's disease research articles.
 
-🚀 Overview
+## Overview
 This project addresses the challenge of keeping up with rapid advancements in medical research by building a question-answering system that grounds its responses in a trusted knowledge base. It combines efficient data ingestion, semantic search, and a state-of-the-art language model to provide contextually relevant answers while refusing out-of-domain queries.
 
-🛠️ Tech Stack
+## Tech Stack
 Frameworks: LlamaIndex, Ollama
 
 Language Model: Microsoft Phi-3 (via Ollama)
@@ -17,7 +17,7 @@ Languages: Python
 
 Libraries: Requests, BeautifulSoup, pdfplumber
 
-📁 Project Architecture
+## Project Architecture
 The system follows a standard RAG pipeline:
 
 Data Ingestion: Web scraping to collect recent research articles.
@@ -28,11 +28,11 @@ Embedding & Indexing: Generating vector embeddings and storing them in ChromaDB.
 
 Retrieval & Generation: Using LlamaIndex to retrieve relevant context and Phi-3 to generate final answers.
 
-📦 Installation
+## Installation
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/AfafMohd/RAG_Alzheimer's_Disease_Research.git
 cd your-repo-name
 Install dependencies:
 
@@ -46,20 +46,20 @@ Pull the Phi-3 model:
 
 bash
 ollama pull phi3
-🏃‍♂️ Usage
-Build the Knowledge Base:
+## Usage
+1. Build the Knowledge Base:
 
 bash
 python build_knowledge_base.py
 This script scrapes the target articles, processes the text, and populates the vector database.
 
-Run the Query Application:
+2. Run the Query Application:
 
 bash
 python query_engine.py
 Launch the interactive session to ask questions about Alzheimer's research.
 
-📝 Example Queries
+## Example Queries
 Domain-Specific (Answered):
 
 "What is the focus of the EU-funded RobustSynapses project?"
@@ -72,7 +72,7 @@ Out-of-Domain (Rejected):
 
 "How to treat ulcers?"
 
-🗺️ Future Improvements
+## Future Improvements
 Integration of multimodal data (images, audio).
 
 Automated periodic knowledge base updates via scheduled scraping.
