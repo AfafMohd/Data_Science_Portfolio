@@ -54,21 +54,36 @@ The system follows a standard RAG pipeline:
   ollama pull phi3
   
 ## Usage
-1. Build the Knowledge Base:
+
+This project is built as a Jupyter notebook for easy demonstration.
+
+1. Install Jupyter (if not already installed):
 
    bash
 
-   python build_knowledge_base.py
+   pip install jupyter
 
-This script scrapes the target articles, processes the text, and populates the vector database.
-
-2. Run the Query Application:
+2. Launch Jupyter:
 
    bash
 
-   python query_engine.py
+   jupyter notebook
 
-Launch the interactive session to ask questions about Alzheimer's research.
+This will open in your web browser.
+
+3. Open and Run:
+   
+   - Navigate to PythonCode.ipynb in your browser
+
+   - Run the cells sequentially to:
+
+       -Scrape and process research articles
+
+       -Build the vector database with ChromaDB
+
+       -Initialize the RAG system with LlamaIndex and Phi-3
+
+       -Test the query interface
 
 ## Example Queries
 Domain-Specific (Answered):
