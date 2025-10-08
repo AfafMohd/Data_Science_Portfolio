@@ -34,7 +34,7 @@ This project demonstrates full-stack data engineering capabilities by designing 
 - Payment method preferences
 - Category popularity metrics
 
-- ## 💡 Technical Highlights
+## 💡 Technical Highlights
 
 - **Normalized Schema**: Designed entity-relationship diagram with 7 core entities and proper relationships
 - **Data Quality Framework**: Implemented 50+ validation rules across all data domains
