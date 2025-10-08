@@ -1,6 +1,6 @@
 # E-Commerce Database System with Automated Data Pipeline
 
-A comprehensive database system for an e-commerce platform with automated data validation, continuous integration pipeline and by data analysis.
+A comprehensive database system for an e-commerce platform with automated data validation, continuous integration pipeline and data analysis.
 
 ## 🚀 Overview
 
