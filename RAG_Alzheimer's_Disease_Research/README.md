@@ -20,43 +20,52 @@ Libraries: Requests, BeautifulSoup, pdfplumber
 ## Project Architecture
 The system follows a standard RAG pipeline:
 
-Data Ingestion: Web scraping to collect recent research articles.
+1. Data Ingestion: Web scraping to collect recent research articles.
 
-Preprocessing & Chunking: Cleaning text and splitting into semantically meaningful sentences.
+2. Preprocessing & Chunking: Cleaning text and splitting into semantically meaningful sentences.
 
-Embedding & Indexing: Generating vector embeddings and storing them in ChromaDB.
+3. Embedding & Indexing: Generating vector embeddings and storing them in ChromaDB.
 
-Retrieval & Generation: Using LlamaIndex to retrieve relevant context and Phi-3 to generate final answers.
+4. Retrieval & Generation: Using LlamaIndex to retrieve relevant context and Phi-3 to generate final answers.
 
 ## Installation
-Clone the repository:
+1. Clone the repository:
 
 bash
-git clone https://github.com/AfafMohd/RAG_Alzheimer's_Disease_Research.git
+
+git clone https://github.com/AfafMohd/Data_Science_Portfolio/RAG_Alzheimer's_Disease_Research.git
 cd your-repo-name
-Install dependencies:
+
+2. Install dependencies:
 
 bash
 pip install -r requirements.txt
-Set up Ollama & Pull the Model:
 
-Install Ollama from https://ollama.ai
+3. Set up Ollama & Pull the Model:
 
-Pull the Phi-3 model:
+- Install Ollama from https://ollama.ai
 
-bash
-ollama pull phi3
+- Pull the Phi-3 model:
+
+  bash
+  
+  ollama pull phi3
+  
 ## Usage
 1. Build the Knowledge Base:
 
 bash
+
 python build_knowledge_base.py
+
 This script scrapes the target articles, processes the text, and populates the vector database.
 
 2. Run the Query Application:
 
 bash
+
 python query_engine.py
+
 Launch the interactive session to ask questions about Alzheimer's research.
 
 ## Example Queries
