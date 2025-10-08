@@ -29,13 +29,7 @@ The system follows a standard RAG pipeline:
 4. Retrieval & Generation: Using LlamaIndex to retrieve relevant context and Phi-3 to generate final answers.
 
 ## Installation
-1. Clone the repository:
-
-   bash
-
-   git clone https://github.com/AfafMohd/Data_Science_Portfolio/tree/main/RAG_Alzheimer's_Disease_Research.git
-
-   cd your-repo-name
+1. Clone the repository.
 
 2. Install dependencies:
 
