@@ -39,11 +39,11 @@ The work combines data wrangling, cohort analysis, retention visualisation, and 
 
      Customers were segmented into:
 
-        - New Customers: first-time buyers in the month
+   - New Customers: first-time buyers in the month
 
-        - Repeat Customers: made 2–4 purchases
+    - Repeat Customers: made 2–4 purchases
 
-        - Loyal Customers: made 5+ purchases
+    - Loyal Customers: made 5+ purchases
 
       Metrics calculated:
 
