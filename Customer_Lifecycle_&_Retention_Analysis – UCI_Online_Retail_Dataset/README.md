@@ -37,7 +37,7 @@ The work combines data wrangling, cohort analysis, retention visualisation, and 
 
 3. Customer Segmentation & Lifecycle Metrics
 
-     Customers were segmented into:
+   Customers were segmented into:
 
    - New Customers: first-time buyers in the month
 
@@ -45,36 +45,36 @@ The work combines data wrangling, cohort analysis, retention visualisation, and 
 
     - Loyal Customers: made 5+ purchases
 
-      Metrics calculated:
+   Metrics calculated:
 
-        - 30-, 60-, 90-day retention
+    - 30-, 60-, 90-day retention
 
-        - Average purchase frequency
+    - Average purchase frequency
 
-        - Customer Lifetime Value (CLV) approximation
+    - Customer Lifetime Value (CLV) approximation
 
 📈 Power BI Dashboard
 
-        - The final dashboard (built in Power BI) visualises:
+    - The final dashboard (built in Power BI) visualises:
 
-        - Cohort retention heatmaps
+    - Cohort retention heatmaps
 
-        - Customer lifecycle funnel
+    - Customer lifecycle funnel
 
-        - Purchase frequency distribution
+    - Purchase frequency distribution
 
-        - Monthly revenue trends
+    - Monthly revenue trends
 
-        - Customer segmentation metrics
+    - Customer segmentation metrics
 
-      This interactive dashboard allows stakeholders to explore how acquisition, retention, and revenue interact over time.
+This interactive dashboard allows stakeholders to explore how acquisition, retention, and revenue interact over time.
 
 ## 📚 Data Source
 
-      UCI Machine Learning Repository – Online Retail Dataset
-      Transactions from a UK-based online retailer between Dec 2010 and Dec 2011.
+ UCI Machine Learning Repository – Online Retail Dataset
+ Transactions from a UK-based online retailer between Dec 2010 and Dec 2011.
 
-    Note: The raw dataset is not included in this repository due to licensing terms. Only derived and processed files are shared.
+Note: The raw dataset is not included in this repository due to licensing terms. Only derived and processed files are shared.
 
 ## 💡 Key Takeaways
 
