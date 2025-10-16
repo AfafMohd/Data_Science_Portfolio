@@ -69,14 +69,14 @@ The work combines data wrangling, cohort analysis, retention visualisation, and 
 
 This interactive dashboard allows stakeholders to explore how acquisition, retention, and revenue interact over time.
 
-## 📚 Data Source
+### 📚 Data Source
 
  UCI Machine Learning Repository – Online Retail Dataset
  Transactions from a UK-based online retailer between Dec 2010 and Dec 2011.
 
 Note: The raw dataset is not included in this repository due to licensing terms. Only derived and processed files are shared.
 
-## 💡 Key Takeaways
+### 💡 Key Takeaways
 
 Most customers make only one purchase — retention is the main growth lever.
 
@@ -86,7 +86,7 @@ Clear opportunity for targeted engagement and loyalty programs to lift repeat be
 
 Cohort and lifecycle analyses are practical tools for understanding long-term customer value.
 
-## 🧠 Skills Demonstrated
+### 🧠 Skills Demonstrated
 
 Data cleaning and transformation with pandas
 
