@@ -1,11 +1,11 @@
-### 🛍 Customer Lifecycle & Retention Analysis – UCI Online Retail Dataset
-## 📖 Project Overview
+## 🛍 Customer Lifecycle & Retention Analysis – UCI Online Retail Dataset
+### 📖 Project Overview
 
 This project analyses customer behaviour and retention patterns using the UCI Online Retail Dataset (transactions from a UK-based e-commerce store). The goal was to understand how customer cohorts behave over time, identify key retention trends, and estimate customer lifetime value (CLV).
 
 The work combines data wrangling, cohort analysis, retention visualisation, and customer segmentation to generate insights that can inform real-world marketing and growth strategies.
 
-## 🧰 Tools & Technologies
+### 🧰 Tools & Technologies
 
 - Python: pandas, numpy, seaborn, matplotlib
 
@@ -15,7 +15,7 @@ The work combines data wrangling, cohort analysis, retention visualisation, and 
 
 - Excel: initial exploration and data cleaning
 
-## 📊 Key Analyses
+### 📊 Key Analyses
 1. Cohort Analysis
 
     Customers were grouped by their first purchase month (CohortMonth).
@@ -55,17 +55,17 @@ The work combines data wrangling, cohort analysis, retention visualisation, and 
 
 📈 Power BI Dashboard
 
-    - The final dashboard (built in Power BI) visualises:
+- The final dashboard (built in Power BI) visualises:
 
-    - Cohort retention heatmaps
+- Cohort retention heatmaps
 
-    - Customer lifecycle funnel
+- Customer lifecycle funnel
 
-    - Purchase frequency distribution
+- Purchase frequency distribution
 
-    - Monthly revenue trends
+- Monthly revenue trends
 
-    - Customer segmentation metrics
+- Customer segmentation metrics
 
 This interactive dashboard allows stakeholders to explore how acquisition, retention, and revenue interact over time.
 
@@ -78,20 +78,20 @@ Note: The raw dataset is not included in this repository due to licensing terms.
 
 ## 💡 Key Takeaways
 
-      Most customers make only one purchase — retention is the main growth lever.
+Most customers make only one purchase — retention is the main growth lever.
 
-      Revenue retention stabilises around 20–30% for mature cohorts, showing a loyal base.
+Revenue retention stabilises around 20–30% for mature cohorts, showing a loyal base.
 
-      Clear opportunity for targeted engagement and loyalty programs to lift repeat behaviour.
+Clear opportunity for targeted engagement and loyalty programs to lift repeat behaviour.
 
-      Cohort and lifecycle analyses are practical tools for understanding long-term customer value.
+Cohort and lifecycle analyses are practical tools for understanding long-term customer value.
 
 ## 🧠 Skills Demonstrated
 
-      Data cleaning and transformation with pandas
+Data cleaning and transformation with pandas
 
-      Cohort and retention analysis techniques
+Cohort and retention analysis techniques
 
-      Data visualisation with seaborn, matplotlib and Power BI
+Data visualisation with seaborn, matplotlib and Power BI
 
-      Deriving actionable business insights from customer data
+Deriving actionable business insights from customer data
