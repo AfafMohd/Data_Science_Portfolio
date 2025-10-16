@@ -1,25 +1,25 @@
 ### 🛍 Customer Lifecycle & Retention Analysis – UCI Online Retail Dataset
-📖 Project Overview
+##📖 Project Overview
 
 This project analyses customer behaviour and retention patterns using the UCI Online Retail Dataset (transactions from a UK-based e-commerce store). The goal was to understand how customer cohorts behave over time, identify key retention trends, and estimate customer lifetime value (CLV).
 
 The work combines data wrangling, cohort analysis, retention visualisation, and customer segmentation to generate insights that can inform real-world marketing and growth strategies.
 
-🧰 Tools & Technologies
+##🧰 Tools & Technologies
 
-Python: pandas, numpy, seaborn, matplotlib
+- Python: pandas, numpy, seaborn, matplotlib
 
-SQL: for exploratory queries and frequency analysis
+- SQL: for exploratory queries and frequency analysis
 
-Power BI: for interactive dashboards
+- Power BI: for interactive dashboards
 
-Excel: initial exploration and data cleaning
+- Excel: initial exploration and data cleaning
 
-📊 Key Analyses
+## 📊 Key Analyses
 1. Cohort Analysis
 
-Customers were grouped by their first purchase month (CohortMonth).
-For each cohort, retention and revenue were tracked across monthly periods (CohortPeriod) to reveal how customer engagement evolved over time.
+    Customers were grouped by their first purchase month (CohortMonth).
+    For each cohort, retention and revenue were tracked across monthly periods (CohortPeriod) to reveal how customer engagement evolved over time.
 
 Outputs:
 
