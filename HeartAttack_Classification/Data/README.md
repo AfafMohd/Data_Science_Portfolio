@@ -89,7 +89,3 @@ Commonly used heart disease dataset from UCI Machine Learning Repository / Kaggl
 
 ---
 
-## 👩‍💻 Author
-
-Afu  
-Heart Disease Classification Project
